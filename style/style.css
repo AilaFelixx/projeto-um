@@ -1,0 +1,152 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap');
+
+:root {
+    --fonte: "Parkinsans"
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(4, 204, 4, 0.473),rgba(128, 128, 128, 0.336));
+}
+
+.principal {
+    background-color: white;
+    margin: auto;
+    width: 54%;
+    min-width: 715px;
+    height: 400px;
+    margin-top: 8%;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    background-color: rgb(255, 255, 255);
+    padding: 9px 10px 1px 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 390px;
+    width: 50%;
+    
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda h2 {
+    font-family: var(--fonte);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.esquerda p {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0px 25px 0px;
+}
+
+.preinput {
+    font-family: var(--fonte);
+    font-size: 14px;
+}
+
+.X {
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    background-color: #dbdbdb8a;
+    outline: 0.5px solid rgba(0, 0, 0, 0.281);
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.entrar-outros {
+    font-family: var(--fonte);
+    color: black;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.icones {
+    margin-top: 20px;
+    margin: auto;
+    width: 250px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.direita {
+    background-image: linear-gradient(to bottom, #254D32, #3A7D44);
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+
+    border-radius: 75px 15px 15px 75px;
+}
+
+.direita h2 {
+    font-family: var(--fonte);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#p-dir-up {
+    font-family: var(--fonte);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 23px 1px 25px 1px;
+}
+
+#p-dir-down {
+    font-family: var(--fonte);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 19px 22px 25px 22px;
+}
+
+.bot-centro {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: var(--fonte);
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 30px;
+    
+
+    background-color: ;
+    border: 1px solid white;
+    background-color: yellowgreen;
+}
+
+.centro {
+    margin-top: 20px;
+}
