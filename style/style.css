@@ -146,6 +146,11 @@ button {
     background-color: yellowgreen;
 }
 
+button > a {
+    color: black;
+    text-decoration: none;
+}
+
 .centro {
     margin-top: 20px;
 }
