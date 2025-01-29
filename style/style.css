@@ -156,7 +156,7 @@ input {
     cursor: pointer;
     margin-top: 15px;
     width: 100px;
-    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.322);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.321);
 }
 
 .entrar:hover {
