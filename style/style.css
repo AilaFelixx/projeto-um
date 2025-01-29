@@ -23,6 +23,7 @@ body {
     height: 400px;
     margin-top: 8%;
     border-radius: 15px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.322);
 
     display: flex;
     flex-direction: row;
@@ -54,7 +55,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    padding: 15px 0px 25px 0px;
+    margin: 15px 0px 15px 0px;
 }
 
 .preinput {
@@ -73,7 +74,7 @@ input {
     background-color: #dbdbdb8a;
     outline: 0.5px solid rgba(0, 0, 0, 0.281);
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     height: 25px;
 }
 
@@ -83,12 +84,11 @@ input {
     font-weight: normal;
     font-size: 13px;
     text-align: center;
-    padding-top: 40px;
+    margin-top: 15px;
 }
 
 .icones {
-    margin-top: 20px;
-    margin: auto;
+    margin: 20px auto;
     width: 250px;
 
     display: flex;
@@ -109,7 +109,7 @@ input {
     color: white;
     font-weight: 700;
     text-align: center;
-    padding-top: 40px;
+    margin-top: 60px;
 }
 
 #p-dir-up {
@@ -118,7 +118,7 @@ input {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    padding: 23px 1px 25px 1px;
+    margin: 30px 1px 25px 1px;
 }
 
 #p-dir-down {
@@ -127,7 +127,7 @@ input {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    padding: 19px 22px 25px 22px;
+    margin: 30px 22px 15px 22px;
 }
 
 .bot-centro {
@@ -135,22 +135,53 @@ input {
     justify-content: center;
 }
 
-button {
+.cad {
     font-family: var(--fonte);
     font-weight: 600;
     padding: 15px;
     border-radius: 30px;
-    
-
-    border: 1px solid white;
+    cursor: pointer;
+    border: none;    
     background-color: yellowgreen;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.322);
 }
 
-button > a {
-    color: black;
+.entrar {
+    background-color: #254D32;
+    border: none;
+    font-family: var(--fonte);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.322);
+}
+
+.entrar:hover {
+    background-color: #4ca159;
+    border: none;
+    transition: all 0.4s;
+}
+
+.cad:hover {
+    border: none;
+    background-color: rgba(153, 205, 50, 0.562);
+    transition: all 0.4s;
+}
+
+.entrar > a {
+    color: white;
     text-decoration: none;
 }
 
-.centro {
-    margin-top: 20px;
+.entrar > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.cad > a {
+    color: black;
+    text-decoration: none;
 }
